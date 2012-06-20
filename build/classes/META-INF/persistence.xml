@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="PUmeucci" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+    <class>br.ufscar.meucci.model.Admin</class>
+    <class>br.ufscar.meucci.model.Contacts</class>
+    <class>br.ufscar.meucci.model.PublicContacts</class>
+    <class>br.ufscar.meucci.model.Users</class>
+    <properties>
+      <property name="toplink.jdbc.user" value="root"/>
+      <property name="toplink.jdbc.password" value="root"/>
+      <property name="toplink.jdbc.url" value="jdbc:derby://localhost:1527/meucciDB"/>
+      <property name="toplink.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="toplink.ddl-generation" value="drop-and-create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>
