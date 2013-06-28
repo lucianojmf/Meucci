@@ -160,8 +160,9 @@ public class PublicImportContactForm extends javax.swing.JDialog {
                     java.util.ResourceBundle.getBundle("presentation/desktop/languages/Bundle").getString("CONTACTS IMPORTED SUCCESSFULLY!"),
                     java.util.ResourceBundle.getBundle("presentation/desktop/languages/Bundle").getString("MEUCCI INFORMATION"),
                     JOptionPane.INFORMATION_MESSAGE);
-                    this.dispose();
+                    
                     Menu.getInstance().updateDataFormView();
+                    this.dispose();
             }else
                 JOptionPane.showMessageDialog(this,
                     java.util.ResourceBundle.getBundle("presentation/desktop/languages/Bundle").getString("CONTACTS NOT IMPORTED."),

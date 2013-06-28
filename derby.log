@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-2012-06-20 15:08:59.114 GMT:
- Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.6.2.1 - (999685): instância a816c00e-0138-0a70-74ad-0000015d6218
-no diretório de banco de dados /home/luciano/NetBeansProjects/Meucci/Meucci  
-
+2012-11-18 17:11:53.145 GMT:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.6.2.1 - (999685): instance a816c00e-013b-1481-3c6f-000001594a10 
+on database directory /home/luciano/NetBeansProjects/Meucci/Meucci  with class loader sun.misc.Launcher$AppClassLoader@16f0472 
+Loaded from file:/home/luciano/GlassFish_Server/javadb/lib/derby.jar
 java.vendor=Sun Microsystems Inc.
 java.runtime.version=1.6.0_26-b03
-Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+Database Class Loader started - derby.database.classpath=''

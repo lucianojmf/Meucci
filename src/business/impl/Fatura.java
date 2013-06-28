@@ -166,8 +166,9 @@ public class Fatura implements IFatura {
                 fileUser.write(" RATES              : " + rates + "\n");
                 fileUser.write(" RATES DIVIDED      : " + (rates/nUsers) + "\n");
                 fileUser.write(" PUBLICS CALLS      : " + sumPublics + "\n");
+                fileUser.write(" PUBLICS CALLS DIVI : " + (sumPublics/nUsers) + "\n");
                 fileUser.write("-------------------------------------------------------\n");
-                fileUser.write(" SUM TOTAL          : " + (sumUsers + sumPublics + (rates/nUsers)) + "\n");
+                fileUser.write(" SUM TOTAL          : " + (sumUsers + (sumPublics/nUsers) + (rates/nUsers)) + "\n");
                 fileUser.write("-------------------------------------------------------\n");
                 fileUser.close();
                 

@@ -13,12 +13,11 @@ package presentation.desktop;
 import business.BusinessException;
 import business.BusinessFactory;
 import business.spec.IAdmin;
+import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import org.jdesktop.application.Action;
 import vo.AdminVO;
 
 /**
@@ -171,6 +170,7 @@ public class LoginForm extends javax.swing.JDialog {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        Locale.setDefault(new Locale("en"));
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -196,7 +196,6 @@ public class LoginForm extends javax.swing.JDialog {
 
         /* Create and display the dialog */
         java.awt.EventQueue.invokeLater(new Runnable() {
-
             public void run() {
                 LoginForm dialog = new LoginForm(new javax.swing.JFrame(), true);
                 dialog.addWindowListener(new java.awt.event.WindowAdapter() {

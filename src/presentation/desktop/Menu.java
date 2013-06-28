@@ -463,7 +463,7 @@ public class Menu extends javax.swing.JFrame {
 
     private void importPublicContacts() {
         PublicImportContactForm form = new PublicImportContactForm(null, rootPaneCheckingEnabled);
-        this.setVisible(false);
+        //this.setVisible(false);
         form.setVisible(true);
     }
 }
