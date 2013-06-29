@@ -1,0 +1,5 @@
+Meucci é um aplicativo Open Source desenvolvido em java para auxiliar moradores em ambientes comunitários a realizarem a divisão de despesas com telefone.
+A aplicação permite o cadastro de moradores e seus respectivos contatos. Atualmente, a divisão é realizada tomando como entrada um arquivo CSV contendo todo o detalhamento de ligações fornecidos pela operadora de telefonia Embratel.
+
+Clientes NET/Embratel possuem acesso a fatura de telefone detalhada no formato CSV. Uma vez importada pelo Meucci, sua fatura é dividida baseando-se na lista de contatos de cada morador, fazendo a separação de contatos públicos e taxas adicionais, sendo estes dois últimos divididos de forma igualitária pelo total de moradores cadastrados.
+
